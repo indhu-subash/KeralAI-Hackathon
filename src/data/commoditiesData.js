@@ -1,5 +1,285 @@
 export const commodities = [
   {
+    id: "cardamom-green",
+    name: "Small Cardamom 8mm",
+    nameMl: "ഏലയ്ക്ക 8mm (ഗ്രീൻ)",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "8mm Bold Extra Green",
+    primaryDistrict: "Idukki",
+    farmgatePrice: 2450.00,
+    mandiPrice: 2680.00,
+    retailPrice: 3100.00,
+    change24h: 85.00,
+    change24hPercent: 3.28,
+    volume: "68 Tonnes (Spices Park Auction)",
+    image: "/cardamom.jpg",
+    sparkline: [2520, 2550, 2580, 2600, 2620, 2650, 2680],
+    districtPrices: {
+      IDK: 2680, EKM: 2720, KTM: 2710, TCR: 2730,
+      TVM: 2750, KKD: 2740, WYD: 2690, PKD: 2730,
+      MLP: 2745, KLM: 2755, KNR: 2750, KSG: 2760,
+      ALP: 2740, PTA: 2725
+    },
+    advisory: {
+      farmer: "Spices Board auction average price breached ₹2,650/kg. Rains in Kattappana improved capsule size.",
+      trader: "North Indian winter festive & marriage buyer inquiries pushing prices upward.",
+      cooperative: "Farmers recommended to grade capsules carefully (8mm commands ₹350/kg premium over 7mm).",
+      consumer: "High grade retail packs premium product."
+    },
+    history1M: [
+      { date: "Sep 07", price: 2380, volume: 55 },
+      { date: "Sep 12", price: 2420, volume: 58 },
+      { date: "Sep 17", price: 2490, volume: 60 },
+      { date: "Sep 22", price: 2560, volume: 62 },
+      { date: "Sep 27", price: 2610, volume: 65 },
+      { date: "Oct 02", price: 2640, volume: 66 },
+      { date: "Oct 07", price: 2680, volume: 68 }
+    ]
+  },
+  {
+    id: "black-pepper",
+    name: "Black Pepper (Malabar Garbled)",
+    nameMl: "കുരുമുളക് (ഗാർബിൾഡ്)",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "Ungarbled Malabar Black 550 g/l",
+    primaryDistrict: "Wayanad",
+    farmgatePrice: 625.00,
+    mandiPrice: 665.00,
+    retailPrice: 720.00,
+    change24h: 5.00,
+    change24hPercent: 0.76,
+    volume: "180 Tonnes",
+    image: "/pepper.jpg",
+    sparkline: [650, 652, 655, 658, 660, 662, 665],
+    districtPrices: {
+      WYD: 665, IDK: 660, KTM: 662, EKM: 670,
+      TCR: 668, KKD: 672, KNR: 670, KSG: 668,
+      TVM: 675, KLM: 673, PTA: 665, ALP: 670,
+      PKD: 669, MLP: 671
+    },
+    advisory: {
+      farmer: "International pepper prices firm. Hold stock for better ungarbled rates above ₹680/kg.",
+      trader: "Export buyers at IPSTA Kochi offering tight quotes.",
+      cooperative: "Quality testing available at Sulthan Bathery lab.",
+      consumer: "Spices market holding steady."
+    },
+    history1M: [
+      { date: "Sep 07", price: 640, volume: 150 },
+      { date: "Sep 12", price: 648, volume: 160 },
+      { date: "Sep 17", price: 652, volume: 168 },
+      { date: "Sep 22", price: 658, volume: 172 },
+      { date: "Sep 27", price: 660, volume: 175 },
+      { date: "Oct 02", price: 663, volume: 178 },
+      { date: "Oct 07", price: 665, volume: 180 }
+    ]
+  },
+  {
+    id: "nutmeg-mace",
+    name: "Nutmeg & Mace (Jathikka)",
+    nameMl: "ജാതിക്ക & ജാതിപത്രി",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "With Shell Grade A / Red Mace",
+    primaryDistrict: "Ernakulam",
+    farmgatePrice: 310.00,
+    mandiPrice: 345.00,
+    retailPrice: 420.00,
+    change24h: 12.00,
+    change24hPercent: 3.60,
+    volume: "95 Tonnes (Kalady Market)",
+    image: "/nutmeg.jpg",
+    sparkline: [330, 332, 335, 338, 340, 342, 345],
+    districtPrices: {
+      EKM: 345, IDK: 340, TCR: 348, KTM: 342,
+      WYD: 338, KKD: 346, TVM: 350, KLM: 348,
+      PKD: 344, KNR: 347, MLP: 345, KSG: 349,
+      PTA: 341, ALP: 343
+    },
+    advisory: {
+      farmer: "Red Mace (ജാതിപത്രി) fetching premium ₹1,850/kg. Separate mace carefully to maximize returns.",
+      trader: "High demand from Ayurvedic pharma & Oleoresin extraction units.",
+      cooperative: "Kalady and Angamaly procurement centers offering direct buyback.",
+      consumer: "Retail spices stable."
+    },
+    history1M: [
+      { date: "Sep 07", price: 320, volume: 80 },
+      { date: "Sep 12", price: 325, volume: 84 },
+      { date: "Sep 17", price: 330, volume: 88 },
+      { date: "Sep 22", price: 335, volume: 90 },
+      { date: "Sep 27", price: 338, volume: 92 },
+      { date: "Oct 02", price: 341, volume: 94 },
+      { date: "Oct 07", price: 345, volume: 95 }
+    ]
+  },
+  {
+    id: "clove-bold",
+    name: "Clove / Karayampoovu",
+    nameMl: "ഗ്രാമ്പൂ (കരായമ്പൂവ്)",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "Extra Bold Headed Dried",
+    primaryDistrict: "Idukki",
+    farmgatePrice: 780.00,
+    mandiPrice: 840.00,
+    retailPrice: 960.00,
+    change24h: 15.00,
+    change24hPercent: 1.82,
+    volume: "42 Tonnes",
+    image: "/clove.jpg",
+    sparkline: [810, 815, 820, 825, 830, 835, 840],
+    districtPrices: {
+      IDK: 840, EKM: 848, KTM: 845, TCR: 850,
+      WYD: 835, KKD: 852, TVM: 855, KLM: 850,
+      PKD: 842, KNR: 851, MLP: 848, KSG: 854,
+      PTA: 843, ALP: 846
+    },
+    advisory: {
+      farmer: "Zanzibar import arrivals moderate; High altitude Idukki clove commands 10% premium.",
+      trader: "Essential oil extraction demand surging in domestic markets.",
+      cooperative: "Drying level below 10% moisture strictly monitored.",
+      consumer: "Retail price steady."
+    },
+    history1M: [
+      { date: "Sep 07", price: 800, volume: 35 },
+      { date: "Sep 12", price: 810, volume: 37 },
+      { date: "Sep 17", price: 820, volume: 39 },
+      { date: "Sep 22", price: 828, volume: 40 },
+      { date: "Sep 27", price: 832, volume: 41 },
+      { date: "Oct 02", price: 836, volume: 41 },
+      { date: "Oct 07", price: 840, volume: 42 }
+    ]
+  },
+  {
+    id: "dry-ginger",
+    name: "Dry Ginger / Chukku",
+    nameMl: "ചുക്ക് (ഉണക്ക ഇഞ്ചി)",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "Bleached Malabar Dry Ginger",
+    primaryDistrict: "Wayanad",
+    farmgatePrice: 320.00,
+    mandiPrice: 355.00,
+    retailPrice: 410.00,
+    change24h: 8.00,
+    change24hPercent: 2.31,
+    volume: "110 Tonnes",
+    image: "/ginger.jpg",
+    sparkline: [338, 340, 342, 345, 348, 350, 355],
+    districtPrices: {
+      WYD: 355, IDK: 350, EKM: 360, TCR: 358,
+      KKD: 362, TVM: 365, KLM: 363, PKD: 356,
+      KTM: 357, KNR: 361, MLP: 359, KSG: 364,
+      PTA: 354, ALP: 358
+    },
+    advisory: {
+      farmer: "Wayanad ginger harvest yields strong. Chukku processing provides 30% higher margins.",
+      trader: "Ayurvedic pharmacy bulk procurement ongoing.",
+      cooperative: "VFPCK facilitating direct farmer trade.",
+      consumer: "Winter spice demand firming up."
+    },
+    history1M: [
+      { date: "Sep 07", price: 330, volume: 90 },
+      { date: "Sep 12", price: 335, volume: 95 },
+      { date: "Sep 17", price: 340, volume: 100 },
+      { date: "Sep 22", price: 345, volume: 104 },
+      { date: "Sep 27", price: 348, volume: 106 },
+      { date: "Oct 02", price: 351, volume: 108 },
+      { date: "Oct 07", price: 355, volume: 110 }
+    ]
+  },
+  {
+    id: "turmeric-finger",
+    name: "Turmeric / Manjal",
+    nameMl: "മഞ്ഞൾ (ആലപ്പുഴ ഫിംഗർ)",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "Alleppey Finger High Curcumin (>5%)",
+    primaryDistrict: "Palakkad",
+    farmgatePrice: 145.00,
+    mandiPrice: 165.00,
+    retailPrice: 195.00,
+    change24h: 3.50,
+    change24hPercent: 2.17,
+    volume: "140 Tonnes",
+    image: "/turmeric.jpg",
+    sparkline: [155, 157, 158, 160, 162, 163, 165],
+    districtPrices: {
+      PKD: 165, ALP: 168, EKM: 167, TCR: 166,
+      WYD: 162, KKD: 169, TVM: 172, KLM: 170,
+      IDK: 161, KTM: 165, KNR: 168, MLP: 167,
+      KSG: 170, PTA: 166
+    },
+    advisory: {
+      farmer: "High curcumin content Alleppey Finger grade getting export buyer premiums.",
+      trader: "Nizamabad mandi prices stable; local Kerala supply absorbing well.",
+      cooperative: "Organic certification increases payout by ₹20/kg.",
+      consumer: "Retail price stable."
+    },
+    history1M: [
+      { date: "Sep 07", price: 150, volume: 120 },
+      { date: "Sep 12", price: 153, volume: 125 },
+      { date: "Sep 17", price: 156, volume: 130 },
+      { date: "Sep 22", price: 159, volume: 133 },
+      { date: "Sep 27", price: 161, volume: 135 },
+      { date: "Oct 02", price: 163, volume: 138 },
+      { date: "Oct 07", price: 165, volume: 140 }
+    ]
+  },
+  {
+    id: "cinnamon-bark",
+    name: "Cinnamon / Karuvapatta",
+    nameMl: "കറുവപ്പട്ട (സുഗന്ധമുള്ളത്)",
+    category: "plantation",
+    categoryNameEn: "Plantation & Spices",
+    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
+    unit: "kg",
+    grade: "Ceylon Type Rolled Bark Grade 1",
+    primaryDistrict: "Kannur",
+    farmgatePrice: 280.00,
+    mandiPrice: 315.00,
+    retailPrice: 370.00,
+    change24h: 6.00,
+    change24hPercent: 1.94,
+    volume: "38 Tonnes",
+    image: "/cinnamon.jpg",
+    sparkline: [300, 302, 305, 308, 310, 312, 315],
+    districtPrices: {
+      KNR: 315, KSG: 318, KKD: 316, EKM: 322,
+      TCR: 320, TVM: 325, KLM: 323, WYD: 312,
+      IDK: 310, KTM: 317, PKD: 319, MLP: 316,
+      PTA: 318, ALP: 321
+    },
+    advisory: {
+      farmer: "Rolled quills fetch higher price than coarse bark. Proper peeling technique key.",
+      trader: "Bakery and confectionery trade active demand.",
+      cooperative: "Grade A quills buyback active at Kannur mandi.",
+      consumer: "Retail price steady."
+    },
+    history1M: [
+      { date: "Sep 07", price: 295, volume: 30 },
+      { date: "Sep 12", price: 300, volume: 32 },
+      { date: "Sep 17", price: 305, volume: 34 },
+      { date: "Sep 22", price: 308, volume: 35 },
+      { date: "Sep 27", price: 311, volume: 36 },
+      { date: "Oct 02", price: 313, volume: 37 },
+      { date: "Oct 07", price: 315, volume: 38 }
+    ]
+  },
+  {
     id: "rubber-rss4",
     name: "Rubber RSS-4",
     nameMl: "റബ്ബർ RSS-4",
@@ -15,6 +295,7 @@ export const commodities = [
     change24h: 3.40,
     change24hPercent: 1.63,
     volume: "1,450 Quintals",
+    image: "/rubber.jpg",
     sparkline: [205, 206, 204, 208, 210, 209, 212.5],
     districtPrices: {
       KTM: 212.50, EKM: 211.00, PTA: 210.50, IDK: 209.00,
@@ -54,6 +335,7 @@ export const commodities = [
     change24h: -120.00,
     change24hPercent: -1.04,
     volume: "3,200 Quintals",
+    image: "/copra.jpg",
     sparkline: [11600, 11580, 11550, 11500, 11480, 11470, 11450],
     districtPrices: {
       KKD: 11450, KSG: 11300, KNR: 11380, MLP: 11400,
@@ -93,6 +375,7 @@ export const commodities = [
     change24h: 1.50,
     change24hPercent: 0.90,
     volume: "45,000 Litres",
+    image: "/coconutoil.jpg",
     sparkline: [165, 166, 165.5, 167, 167.5, 168, 168],
     districtPrices: {
       KLM: 168, TVM: 172, EKM: 170, TCR: 169,
@@ -132,6 +415,7 @@ export const commodities = [
     change24h: 4.20,
     change24hPercent: 9.27,
     volume: "850 Tonnes",
+    image: "/nendran.jpg",
     sparkline: [44, 43.5, 45, 46, 47.5, 48, 49.5],
     districtPrices: {
       WYD: 49.5, PKD: 48.0, TCR: 52.0, EKM: 54.0,
@@ -156,45 +440,6 @@ export const commodities = [
     ]
   },
   {
-    id: "cardamom-green",
-    name: "Small Cardamom 8mm",
-    nameMl: "ഏലയ്ക്ക 8mm (ഗ്രീൻ)",
-    category: "plantation",
-    categoryNameEn: "Plantation & Spices",
-    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
-    unit: "kg",
-    grade: "8mm Bold Extra Green",
-    primaryDistrict: "Idukki",
-    farmgatePrice: 2450.00,
-    mandiPrice: 2680.00,
-    retailPrice: 3100.00,
-    change24h: 85.00,
-    change24hPercent: 3.28,
-    volume: "68 Tonnes (Spices Park Auction)",
-    sparkline: [2520, 2550, 2580, 2600, 2620, 2650, 2680],
-    districtPrices: {
-      IDK: 2680, EKM: 2720, KTM: 2710, TCR: 2730,
-      TVM: 2750, KKD: 2740, WYD: 2690, PKD: 2730,
-      MLP: 2745, KLM: 2755, KNR: 2750, KSG: 2760,
-      ALP: 2740, PTA: 2725
-    },
-    advisory: {
-      farmer: "Spices Board auction average price breached ₹2,650/kg. Rains in Bodinayakanur & Kattappana improved capsule size.",
-      trader: "North Indian winter festive & marriage buyer inquiries pushing prices upward.",
-      cooperative: "Farmers recommended to grade capsules carefully (8mm commands ₹350/kg premium over 7mm).",
-      consumer: "High grade retail packs premium product."
-    },
-    history1M: [
-      { date: "Sep 07", price: 2380, volume: 55 },
-      { date: "Sep 12", price: 2420, volume: 58 },
-      { date: "Sep 17", price: 2490, volume: 60 },
-      { date: "Sep 22", price: 2560, volume: 62 },
-      { date: "Sep 27", price: 2610, volume: 65 },
-      { date: "Oct 02", price: 2640, volume: 66 },
-      { date: "Oct 07", price: 2680, volume: 68 }
-    ]
-  },
-  {
     id: "tapioca-kappa",
     name: "Tapioca / Kappa (Fresh)",
     nameMl: "കപ്പ / മരച്ചീനി",
@@ -210,6 +455,7 @@ export const commodities = [
     change24h: -0.80,
     change24hPercent: -3.23,
     volume: "1,200 Tonnes",
+    image: "/tapioca.jpg",
     sparkline: [26, 25.5, 25, 24.8, 24.5, 24.2, 24.0],
     districtPrices: {
       TVM: 24.0, KLM: 24.5, PTA: 23.5, KTM: 23.0,
@@ -231,123 +477,6 @@ export const commodities = [
       { date: "Sep 27", price: 24.8, volume: 1180 },
       { date: "Oct 02", price: 24.3, volume: 1190 },
       { date: "Oct 07", price: 24.0, volume: 1200 }
-    ]
-  },
-  {
-    id: "fish-sardine",
-    name: "Sardine / Mathi (Fresh Landing)",
-    nameMl: "മത്തി / ചാള (ഫ്രഷ്)",
-    category: "marine",
-    categoryNameEn: "Marine & Fisheries",
-    categoryNameMl: "മത്സ്യ സമ്പത്ത്",
-    unit: "kg",
-    grade: "Fresh Harbor Landing Grade 1",
-    primaryDistrict: "Kollam",
-    farmgatePrice: 140.00,
-    mandiPrice: 175.00,
-    retailPrice: 210.00,
-    change24h: -15.00,
-    change24hPercent: -7.89,
-    volume: "420 Tonnes (Harbor Landings)",
-    sparkline: [210, 205, 195, 190, 185, 180, 175],
-    districtPrices: {
-      KLM: 175, TVM: 185, ALP: 170, EKM: 180,
-      TCR: 185, KKD: 172, KNR: 175, KSG: 178,
-      PKD: 198, MLP: 182, KTM: 192, PTA: 195,
-      IDK: 210, WYD: 215
-    },
-    advisory: {
-      farmer: "Traditional purse-seine boats reporting high catches off Neendakara & Munambam coast.",
-      trader: "Supply glut at coastal harbors; inland markets (Palakkad, Wayanad) present ₹40/kg price premium.",
-      cooperative: "Matsyafed fish markets maintaining price stability at ₹185/kg.",
-      consumer: "Excellent fresh catch availability; prices 15% lower than last month."
-    },
-    history1M: [
-      { date: "Sep 07", price: 230, volume: 210 },
-      { date: "Sep 12", price: 220, volume: 260 },
-      { date: "Sep 17", price: 205, volume: 310 },
-      { date: "Sep 22", price: 195, volume: 360 },
-      { date: "Sep 27", price: 185, volume: 390 },
-      { date: "Oct 02", price: 180, volume: 410 },
-      { date: "Oct 07", price: 175, volume: 420 }
-    ]
-  },
-  {
-    id: "fish-neymeen",
-    name: "Seer Fish / Neymeen (Kingfish)",
-    nameMl: "നെയ്യ്മീൻ / കിംഗ് ഫിഷ്",
-    category: "marine",
-    categoryNameEn: "Marine & Fisheries",
-    categoryNameMl: "മത്സ്യ സമ്പത്ത്",
-    unit: "kg",
-    grade: "Large Whole Fish (> 3kg)",
-    primaryDistrict: "Ernakulam",
-    farmgatePrice: 720.00,
-    mandiPrice: 850.00,
-    retailPrice: 980.00,
-    change24h: 30.00,
-    change24hPercent: 3.66,
-    volume: "45 Tonnes",
-    sparkline: [800, 810, 820, 815, 830, 840, 850],
-    districtPrices: {
-      EKM: 850, TVM: 880, KLM: 860, ALP: 855,
-      TCR: 870, KKD: 840, KNR: 845, KSG: 850,
-      KTM: 890, PTA: 900, PKD: 910, MLP: 865,
-      IDK: 940, WYD: 950
-    },
-    advisory: {
-      farmer: "Deep-sea gillnet vessels landing prime catches at Thoppumpady harbor.",
-      trader: "Strong export demand and restaurant sector buying.",
-      cooperative: "Harbor auction bidding active.",
-      consumer: "High-end premium fish species; stable demand."
-    },
-    history1M: [
-      { date: "Sep 07", price: 790, volume: 38 },
-      { date: "Sep 12", price: 805, volume: 40 },
-      { date: "Sep 17", price: 815, volume: 42 },
-      { date: "Sep 22", price: 830, volume: 41 },
-      { date: "Sep 27", price: 835, volume: 43 },
-      { date: "Oct 02", price: 842, volume: 44 },
-      { date: "Oct 07", price: 850, volume: 45 }
-    ]
-  },
-  {
-    id: "black-pepper",
-    name: "Black Pepper (Garbled)",
-    nameMl: "കുരുമുളക് (ഗാർബിൾഡ്)",
-    category: "plantation",
-    categoryNameEn: "Plantation & Spices",
-    categoryNameMl: "തോട്ടവിളകളും സുഗന്ധവ്യഞ്ജനങ്ങളും",
-    unit: "kg",
-    grade: "Ungarbled Malabar Black 550 g/l",
-    primaryDistrict: "Wayanad",
-    farmgatePrice: 625.00,
-    mandiPrice: 665.00,
-    retailPrice: 720.00,
-    change24h: 5.00,
-    change24hPercent: 0.76,
-    volume: "180 Tonnes",
-    sparkline: [650, 652, 655, 658, 660, 662, 665],
-    districtPrices: {
-      WYD: 665, IDK: 660, KTM: 662, EKM: 670,
-      TCR: 668, KKD: 672, KNR: 670, KSG: 668,
-      TVM: 675, KLM: 673, PTA: 665, ALP: 670,
-      PKD: 669, MLP: 671
-    },
-    advisory: {
-      farmer: "International pepper prices firm. Hold stock for better ungarbled rates above ₹680/kg.",
-      trader: "Export buyers at IPSTA Kochi offering tight quotes.",
-      cooperative: "Quality testing available at Sulthan Bathery lab.",
-      consumer: "Spices market holding steady."
-    },
-    history1M: [
-      { date: "Sep 07", price: 640, volume: 150 },
-      { date: "Sep 12", price: 648, volume: 160 },
-      { date: "Sep 17", price: 652, volume: 168 },
-      { date: "Sep 22", price: 658, volume: 172 },
-      { date: "Sep 27", price: 660, volume: 175 },
-      { date: "Oct 02", price: 663, volume: 178 },
-      { date: "Oct 07", price: 665, volume: 180 }
     ]
   }
 ];
